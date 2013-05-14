@@ -4,5 +4,8 @@
         "phpunit/phpunit": "3.7.*",
         "instaclick/php-webdriver": "dev-master",
         "aoemedia/menta": "dev-composer"
+    },
+    "config": {
+        "bin-dir": "bin"
     }
 }
