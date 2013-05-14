@@ -3,7 +3,7 @@
     "require": {
         "phpunit/phpunit": "3.7.*",
         "instaclick/php-webdriver": "dev-master",
-        "aoemedia/menta": "dev-composer"
+        "aoemedia/menta": "dev-master"
     },
     "config": {
         "bin-dir": "bin"
