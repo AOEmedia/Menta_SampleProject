@@ -18,4 +18,14 @@ class Acceptance_Tests_General_ScreenshotsTest extends Acceptance_Tests_Testcase
 	}
 
 
+	/**
+	 * Broken test
+	 *
+	 * @test
+	 */
+	public function brokenTest() {
+		$this->fail('This test is broken');
+	}
+
+
 }
