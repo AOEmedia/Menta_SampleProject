@@ -15,3 +15,6 @@
 
     # run single test
     ../bin/phpunit --configuration=../conf/demo.ff.vmhost.xml General/ScreenshotsTest.php
+
+    # run all tests
+    ../bin/phpunit --configuration=../conf/demo.ff.vmhost.xml ../vendor/aoemedia/menta/lib/Menta/Util/CreateTestSuite.php
